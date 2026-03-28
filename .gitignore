@@ -1,0 +1,49 @@
+# =========================
+# Models / Weights
+# =========================
+*.gguf
+*.bin
+*.safetensors
+*.pt
+llama.cpp/
+
+# =========================
+# FAISS / Vector DB
+# =========================
+*.faiss
+metadata.json
+
+# =========================
+# Training Outputs
+# =========================
+adapters/
+app/chat.py
+lora-output/
+merged-model/
+base_files/
+rag/diagnose.py
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Environment
+# =========================
+.env
+.venv/
+index.html
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.DS_Store
+
+# =========================
+# Logs
+# =========================
+*.log
+retrieve_old

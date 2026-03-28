@@ -1,0 +1,632 @@
+{
+  "products": {
+
+    "coke": {
+      "name": "Coca-Cola Original",
+      "category": "Cola",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Caramel Colour (E150d)",
+        "Acidity Regulator (Phosphoric Acid – E338)",
+        "Caffeine",
+        "Natural Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 44,
+        "sugar_g": 10.6,
+        "sodium_mg": 9,
+        "caffeine_mg": 9.7
+      }
+    },
+
+    "thums_up": {
+      "name": "Thums Up",
+      "category": "Cola",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Caramel Colour (E150d)",
+        "Acidity Regulator (Phosphoric Acid – E338)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Caffeine",
+        "Added Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 42,
+        "sugar_g": 10.4,
+        "sodium_mg": 0.8,
+        "caffeine_mg": 10
+      }
+    },
+
+    "pepsi": {
+      "name": "Pepsi",
+      "category": "Cola",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Caramel Colour (E150d)",
+        "Acidity Regulator (Phosphoric Acid – E338)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Caffeine",
+        "Natural Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 43,
+        "sugar_g": 10.9,
+        "sodium_mg": 11,
+        "caffeine_mg": 10.7
+      }
+    },
+
+    "diet_coke": {
+      "name": "Diet Coke",
+      "category": "Diet Cola",
+      "ingredients": [
+        "Carbonated Water",
+        "Caramel Colour (E150d)",
+        "Acidity Regulator (Phosphoric Acid – E338)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Sweetener (Aspartame – E951)",
+        "Sweetener (Acesulfame Potassium – E950)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Caffeine",
+        "Natural Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 0,
+        "sugar_g": 0,
+        "sodium_mg": 28,
+        "caffeine_mg": 12.8
+      }
+    },
+
+    "coke_zero": {
+      "name": "Coca-Cola Zero Sugar",
+      "category": "Diet Cola",
+      "ingredients": [
+        "Carbonated Water",
+        "Caramel Colour (E150d)",
+        "Acidity Regulator (Phosphoric Acid – E338)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Sweetener (Sucralose – E955)",
+        "Sweetener (Acesulfame Potassium – E950)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Caffeine",
+        "Natural Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 0.3,
+        "sugar_g": 0,
+        "sodium_mg": 11,
+        "caffeine_mg": 9.6
+      }
+    },
+
+    "pepsi_black": {
+      "name": "Pepsi Black",
+      "category": "Diet Cola",
+      "ingredients": [
+        "Carbonated Water",
+        "Caramel Colour (E150d)",
+        "Acidity Regulator (Phosphoric Acid – E338)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Sweetener (Aspartame – E951)",
+        "Sweetener (Acesulfame Potassium – E950)",
+        "Caffeine",
+        "Natural Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 0,
+        "sugar_g": 0,
+        "sodium_mg": 15,
+        "caffeine_mg": 11.5
+      }
+    },
+
+    "sprite": {
+      "name": "Sprite",
+      "category": "Lime Soda",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Lemon & Lime Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 48,
+        "sugar_g": 11.9,
+        "sodium_mg": 18,
+        "caffeine_mg": 0
+      }
+    },
+
+    "7up": {
+      "name": "7Up",
+      "category": "Lime Soda",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Acidity Regulator (Malic Acid – E296)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Natural Lemon-Lime Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 45,
+        "sugar_g": 11,
+        "sodium_mg": 24,
+        "caffeine_mg": 0
+      }
+    },
+
+    "fanta": {
+      "name": "Fanta Orange",
+      "category": "Orange Soda",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Stabilizer (Gum Arabic – E414)",
+        "Stabilizer (Glycerol Esters of Wood Rosin – E445)",
+        "Colour (Sunset Yellow – E110)",
+        "Natural & Nature Identical Orange Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 53,
+        "sugar_g": 13,
+        "sodium_mg": 14,
+        "caffeine_mg": 0
+      }
+    },
+
+    "mirinda": {
+      "name": "Mirinda Orange",
+      "category": "Orange Soda",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Colour (Sunset Yellow – E110)",
+        "Antioxidant (Ascorbic Acid – E300)",
+        "Nature Identical Orange Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 55,
+        "sugar_g": 13.7,
+        "sodium_mg": 20,
+        "caffeine_mg": 0
+      }
+    },
+
+    "mountain_dew": {
+      "name": "Mountain Dew",
+      "category": "Citrus Soda",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Caffeine",
+        "Colour (Tartrazine – E102)",
+        "Nature Identical Citrus Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 49,
+        "sugar_g": 12.3,
+        "sodium_mg": 16,
+        "caffeine_mg": 13.6
+      }
+    },
+
+    "limca": {
+      "name": "Limca",
+      "category": "Lemon Soda",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Stabilizer (Gum Arabic – E414)",
+        "Natural Lemon Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 44,
+        "sugar_g": 11,
+        "sodium_mg": 10,
+        "caffeine_mg": 0
+      }
+    },
+
+    "maaza": {
+      "name": "Maaza Mango",
+      "category": "Fruit Drink",
+      "ingredients": [
+        "Water",
+        "Mango Pulp (≈18%)",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Antioxidant (Ascorbic Acid – E300)",
+        "Preservative (Potassium Sorbate – E202)",
+        "Colour (Beta-Carotene – E160a)",
+        "Natural Mango Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 61,
+        "sugar_g": 14.8,
+        "sodium_mg": 24,
+        "caffeine_mg": 0
+      }
+    },
+
+    "slice": {
+      "name": "Slice",
+      "category": "Fruit Drink",
+      "ingredients": [
+        "Water",
+        "Sugar",
+        "Mango Pulp",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Antioxidant (Ascorbic Acid – E300)",
+        "Colour (Sunset Yellow – E110)",
+        "Nature Identical Mango Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 63,
+        "sugar_g": 15.6,
+        "sodium_mg": 20,
+        "caffeine_mg": 0
+      }
+    },
+
+    "frooti": {
+      "name": "Frooti",
+      "category": "Fruit Drink",
+      "ingredients": [
+        "Water",
+        "Mango Pulp",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Antioxidant (Ascorbic Acid – E300)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Colour (Sunset Yellow – E110)",
+        "Natural & Nature Identical Mango Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 65,
+        "sugar_g": 16.2,
+        "sodium_mg": 28.5,
+        "caffeine_mg": 0
+      }
+    },
+
+    "appy_fizz": {
+      "name": "Appy Fizz",
+      "category": "Fruit Soda",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Apple Juice Concentrate (≈1.9%)",
+        "Acidity Regulator (Malic Acid – E296)",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Antioxidant (Ascorbic Acid – E300)",
+        "Natural Apple Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 48,
+        "sugar_g": 12,
+        "sodium_mg": 12,
+        "caffeine_mg": 0
+      }
+    },
+
+    "sting_energy": {
+      "name": "Sting Energy Drink",
+      "category": "Energy Drink",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Caffeine",
+        "Taurine",
+        "Inositol",
+        "Colour (Allura Red – E129)",
+        "B-Group Vitamins",
+        "Nature Identical Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 48,
+        "sugar_g": 11.7,
+        "sodium_mg": 38,
+        "caffeine_mg": 30
+      }
+    },
+
+    "paper_boat_aam_panna": {
+      "name": "Paper Boat Aam Panna",
+      "category": "Traditional Drink",
+      "ingredients": [
+        "Water",
+        "Sugar",
+        "Green Mango Pulp (≈10%)",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Spices & Condiments (Cumin, Black Salt)",
+        "Preservative (Potassium Sorbate – E202)",
+        "Salt",
+        "Colour (Chlorophyll – E141)",
+        "Natural Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 48,
+        "sugar_g": 12,
+        "sodium_mg": 210,
+        "caffeine_mg": 0
+      }
+    },
+
+    "red_bull": {
+      "name": "Red Bull Energy",
+      "category": "Energy Drink",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Glucose",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Taurine",
+        "Caffeine",
+        "B-Group Vitamins",
+        "Colour (Caramel – E150a)",
+        "Natural & Artificial Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 45,
+        "sugar_g": 11,
+        "sodium_mg": 40,
+        "caffeine_mg": 30
+      }
+    },
+
+    "monster_energy": {
+      "name": "Monster Energy",
+      "category": "Energy Drink",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Glucose Syrup",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Taurine",
+        "Caffeine",
+        "Preservative (Sodium Benzoate – E211)",
+        "Preservative (Sorbic Acid – E200)",
+        "Sweetener (Sucralose – E955)",
+        "Colour (Tartrazine – E102)",
+        "Colour (Brilliant Blue – E133)",
+        "B-Group Vitamins",
+        "Natural Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 47,
+        "sugar_g": 12,
+        "sodium_mg": 76,
+        "caffeine_mg": 30
+      }
+    },
+
+    "hell_energy": {
+      "name": "Hell Energy Drink",
+      "category": "Energy Drink",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Taurine",
+        "Caffeine",
+        "Colour (Caramel – E150d)",
+        "B-Group Vitamins",
+        "Nature Identical Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 46,
+        "sugar_g": 10.9,
+        "sodium_mg": 20,
+        "caffeine_mg": 30
+      }
+    },
+
+    "lipton_ice_tea": {
+      "name": "Lipton Ice Tea (Lemon)",
+      "category": "Iced Tea",
+      "ingredients": [
+        "Water",
+        "Sugar",
+        "Tea Extract (≈0.12%)",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Malic Acid – E296)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Antioxidant (Ascorbic Acid – E300)",
+        "Sweetener (Sucralose – E955)",
+        "Natural Lemon Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 18,
+        "sugar_g": 4.5,
+        "sodium_mg": 25,
+        "caffeine_mg": 4
+      }
+    },
+
+    "schweppes_tonic": {
+      "name": "Schweppes Tonic Water",
+      "category": "Mixer",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Quinine",
+        "Natural Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 37,
+        "sugar_g": 9.2,
+        "sodium_mg": 12,
+        "caffeine_mg": 0
+      }
+    },
+
+    "schweppes_soda": {
+      "name": "Schweppes Soda Water",
+      "category": "Soda Water",
+      "ingredients": [
+        "Carbonated Water",
+        "Acidity Regulator (Sodium Bicarbonate – E500(ii))"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 0,
+        "sugar_g": 0,
+        "sodium_mg": 5,
+        "caffeine_mg": 0
+      }
+    },
+
+    "bisleri_limonata": {
+      "name": "Bisleri Limonata",
+      "category": "Lime Soda",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Lime Juice (≈1%)",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Colour (Tartrazine – E102)",
+        "Natural & Nature Identical Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 42,
+        "sugar_g": 10.5,
+        "sodium_mg": 20,
+        "caffeine_mg": 0
+      }
+    },
+
+    "b_fizz": {
+      "name": "B-Fizz",
+      "category": "Malt Drink",
+      "ingredients": [
+        "Carbonated Water",
+        "Sugar",
+        "Apple Juice Concentrate",
+        "Malt Extract",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Colour (Tartrazine – E102)",
+        "Colour (Sunset Yellow – E110)",
+        "Nature Identical Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 48,
+        "sugar_g": 12,
+        "sodium_mg": 14,
+        "caffeine_mg": 0
+      }
+    },
+
+    "minute_maid_pulpy": {
+      "name": "Minute Maid Pulpy Orange",
+      "category": "Fruit Drink",
+      "ingredients": [
+        "Water",
+        "Sugar",
+        "Orange Pulp (≈10%)",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Colour (Beta-Carotene – E160a)",
+        "Antioxidant (Ascorbic Acid – E300)",
+        "Natural & Nature Identical Orange Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 48,
+        "sugar_g": 11.8,
+        "sodium_mg": 18,
+        "caffeine_mg": 0
+      }
+    },
+
+    "kinley_soda": {
+      "name": "Kinley Soda",
+      "category": "Soda Water",
+      "ingredients": [
+        "Carbonated Water",
+        "Acidity Regulator (Sodium Bicarbonate – E500(ii))",
+        "Magnesium Sulphate"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 0,
+        "sugar_g": 0,
+        "sodium_mg": 2.5,
+        "caffeine_mg": 0
+      }
+    },
+
+    "real_mixed_fruit": {
+      "name": "Real Fruit Power Mixed Fruit",
+      "category": "Juice",
+      "ingredients": [
+        "Water",
+        "Mixed Fruit Concentrate (≈12%)",
+        "Sugar",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Antioxidant (Ascorbic Acid – E300)",
+        "Stabilizer (Pectin – E440)",
+        "Natural Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 56,
+        "sugar_g": 13,
+        "sodium_mg": 10,
+        "caffeine_mg": 0
+      }
+    },
+
+    "gatorade_blue": {
+      "name": "Gatorade Blue Bolt",
+      "category": "Sports Drink",
+      "ingredients": [
+        "Water",
+        "Sugar",
+        "Dextrose",
+        "Acidity Regulator (Citric Acid – E330)",
+        "Acidity Regulator (Sodium Citrate – E331)",
+        "Electrolytes (Sodium Phosphate – E340)",
+        "Preservative (Sodium Benzoate – E211)",
+        "Stabilizer (Gum Arabic – E414)",
+        "Colour (Brilliant Blue – E133)",
+        "Natural Flavours"
+      ],
+      "nutrition_per_100ml": {
+        "energy_kcal": 24,
+        "sugar_g": 6,
+        "sodium_mg": 48,
+        "caffeine_mg": 0
+      }
+    }
+
+  }
+}

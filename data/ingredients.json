@@ -1,0 +1,603 @@
+{
+  "additives": [
+    {
+      "id": "Sugar",
+      "name": "Added Sugar (Sucrose / HFCS)",
+      "category": "Sweetener",
+      "adi": "≈25 g/day (WHO conditional recommendation)",
+      "adi_source": "WHO 2023 / AHA",
+      "health_effects": [
+        "Excess intake strongly linked to obesity, Type 2 diabetes, and heart disease.",
+        "Causes rapid blood glucose spikes and insulin stress.",
+        "Contributes to fatty liver disease and chronic inflammation.",
+        "Provides calories with no micronutritional benefit."
+      ],
+      "risk_level": "high",
+      "child_safety_level": "high risk",
+      "pregnancy_warning": "Limit strictly; excess intake linked to gestational diabetes.",
+      "safe_products_per_day": { "cola_can": 0.5, "juice_box": 1 },
+      "avoid_if": [
+        "Diabetics",
+        "Children (limit severely)",
+        "People with metabolic syndrome",
+        "Heart patients"
+      ],
+      "regulatory_status": { "WHO": "Strict intake recommendation", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["All sweetened beverages"],
+      "interaction_risks": []
+    },
+    {
+      "id": "Carbonated Water",
+      "name": "Carbonated Water",
+      "category": "Base Ingredient",
+      "adi": "Not specified",
+      "adi_source": "JECFA / FDA",
+      "health_effects": [
+        "Acidic pH contributes to tooth enamel erosion over time.",
+        "Carbonation can cause bloating and gastric discomfort.",
+        "May aggravate acid reflux (GERD)."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low risk",
+      "pregnancy_warning": "Generally safe; avoid if reflux worsens.",
+      "safe_products_per_day": { "glass": 4 },
+      "avoid_if": ["People with severe GERD", "Individuals with dental erosion"],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Sodas", "Energy drinks", "Sparkling beverages"],
+      "interaction_risks": []
+    },
+    {
+      "id": "Caffeine",
+      "name": "Caffeine",
+      "category": "Stimulant",
+      "adi": "400 mg/day (adults), ≤200 mg/day (pregnancy)",
+      "adi_source": "EFSA / WHO",
+      "health_effects": [
+        "Improves alertness in adults at low doses.",
+        "High intake causes anxiety, palpitations, insomnia, and raised blood pressure.",
+        "Children are significantly more sensitive than adults."
+      ],
+      "risk_level": "moderate-high",
+      "child_safety_level": "high risk",
+      "pregnancy_warning": "Limit to ≤200 mg/day.",
+      "safe_products_per_day": { "energy_drink": 1, "cola_can": 2 },
+      "avoid_if": ["Children under 12", "People with arrhythmia or anxiety disorders", "Uncontrolled hypertension"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Max 300 ppm in soda", "FDA": "GRAS" },
+      "common_products": ["Colas", "Energy drinks", "Iced tea"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E330",
+      "name": "Citric Acid",
+      "category": "Acidulant",
+      "adi": "Not specified",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Highly erosive to tooth enamel.",
+        "Can trigger acid reflux and stomach irritation.",
+        "Generally safe metabolically."
+      ],
+      "risk_level": "low-moderate",
+      "child_safety_level": "moderate risk (dental)",
+      "pregnancy_warning": "Safe, but may worsen nausea/reflux.",
+      "safe_products_per_day": { "soda_can": 3 },
+      "avoid_if": ["People with GERD", "Those with dental sensitivity"],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Lemon sodas", "Fruit drinks", "Sports drinks"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E331",
+      "name": "Sodium Citrates",
+      "category": "Acidity Regulator",
+      "adi": "Not specified",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Buffers acidity and improves flavor stability.",
+        "Adds hidden dietary sodium.",
+        "Excess sodium intake increases blood pressure risk."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low-moderate",
+      "pregnancy_warning": "Safe; monitor total sodium intake.",
+      "safe_products_per_day": { "soda_can": 3 },
+      "avoid_if": ["People on low-sodium diets", "Hypertension patients"],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Sodas", "Diet drinks", "Sports drinks"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E338",
+      "name": "Phosphoric Acid",
+      "category": "Acidulant",
+      "adi": "70 mg/kg body weight/day",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Strong contributor to tooth enamel erosion.",
+        "High intake linked to reduced calcium absorption.",
+        "Associated with kidney stress in susceptible individuals."
+      ],
+      "risk_level": "moderate",
+      "child_safety_level": "moderate-high",
+      "pregnancy_warning": "Limit intake; excess may affect mineral balance.",
+      "safe_products_per_day": { "cola_can": 1 },
+      "avoid_if": ["Children", "People with kidney disease", "Individuals with osteoporosis"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Dark colas"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E211",
+      "name": "Sodium Benzoate",
+      "category": "Preservative",
+      "adi": "5 mg/kg body weight/day",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Widely used antimicrobial preservative in acidic beverages.",
+        "Can trigger asthma symptoms, hives, or irritation in sensitive individuals.",
+        "When combined with Vitamin C (E300) and exposed to heat/light, may form trace benzene."
+      ],
+      "risk_level": "moderate",
+      "child_safety_level": "moderate-high",
+      "pregnancy_warning": "Approved; avoid excessive intake and prolonged storage in heat.",
+      "safe_products_per_day": { "soda_can": 1 },
+      "avoid_if": ["Asthmatics", "Aspirin-sensitive individuals", "Children with hyperactivity sensitivity"],
+      "regulatory_status": { "WHO": "Approved (ADI established)", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Fruit drinks", "Orange sodas", "Sports drinks"],
+      "interaction_risks": ["Vitamin C (E300) + heat/light → possible benzene formation (trace, regulated)"]
+    },
+    {
+      "id": "E202",
+      "name": "Potassium Sorbate",
+      "category": "Preservative",
+      "adi": "25 mg/kg body weight/day",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Low-toxicity preservative effective against molds and yeasts.",
+        "Rare allergic or skin irritation reactions reported.",
+        "Rapidly metabolized and excreted."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low",
+      "pregnancy_warning": "Considered safe at permitted levels.",
+      "safe_products_per_day": { "juice_box": 3 },
+      "avoid_if": ["Individuals with known sorbate sensitivity"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Fruit drinks", "Traditional beverages"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E300",
+      "name": "Ascorbic Acid (Vitamin C)",
+      "category": "Antioxidant",
+      "adi": "Not specified",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Acts as an antioxidant and prevents oxidation-related spoilage.",
+        "Essential vitamin; supports immune and connective tissue function.",
+        "Very high supplemental doses can cause gastrointestinal upset."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low",
+      "pregnancy_warning": "Safe; excessive supplementation not advised.",
+      "safe_products_per_day": { "juice_box": 4 },
+      "avoid_if": ["People with hemochromatosis", "Those prone to kidney stones (high supplemental doses)"],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Fruit drinks", "Juices", "Sports drinks"],
+      "interaction_risks": ["Can interact with Sodium Benzoate (E211) under heat/light to form benzene (regulated and monitored)"]
+    },
+    {
+      "id": "E951",
+      "name": "Aspartame",
+      "category": "Artificial Sweetener",
+      "adi": "40 mg/kg body weight/day",
+      "adi_source": "JECFA (reaffirmed 2023)",
+      "health_effects": [
+        "Provides sweetness without calories and reduces sugar intake.",
+        "In 2023, classified as 'Possibly carcinogenic to humans (Group 2B)' by IARC based on limited evidence.",
+        "JECFA and EFSA concluded no safety concern at or below ADI.",
+        "Commonly reported trigger for headaches or migraines in sensitive individuals."
+      ],
+      "risk_level": "moderate",
+      "child_safety_level": "moderate",
+      "pregnancy_warning": "Approved at ADI; avoid excessive intake.",
+      "safe_products_per_day": { "diet_cola_can": 3 },
+      "avoid_if": ["People with Phenylketonuria (PKU)", "Individuals prone to migraines"],
+      "regulatory_status": { "WHO": "Approved (ADI maintained)", "FSSAI": "Approved", "FDA": "Approved" },
+      "common_products": ["Diet Coke", "Pepsi Black", "Diet sodas"],
+      "interaction_risks": ["Metabolizes to phenylalanine — dangerous for individuals with PKU"]
+    },
+    {
+      "id": "E950",
+      "name": "Acesulfame Potassium (Ace-K)",
+      "category": "Artificial Sweetener",
+      "adi": "15 mg/kg body weight/day",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Calorie-free sweetener often combined with Aspartame or Sucralose.",
+        "Does not raise blood glucose directly.",
+        "Some animal and observational studies suggest possible metabolic effects at high intakes, but human evidence is limited."
+      ],
+      "risk_level": "low-moderate",
+      "child_safety_level": "low-moderate",
+      "pregnancy_warning": "Approved; moderation advised.",
+      "safe_products_per_day": { "diet_soda": 3 },
+      "avoid_if": ["Individuals preferring to avoid artificial sweeteners"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "Approved" },
+      "common_products": ["Coke Zero", "Diet sodas", "Zero-sugar drinks"],
+      "interaction_risks": ["Often used in combination with other artificial sweeteners"]
+    },
+    {
+      "id": "E955",
+      "name": "Sucralose",
+      "category": "Artificial Sweetener",
+      "adi": "15 mg/kg body weight/day",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Widely used high-intensity sweetener with no calories.",
+        "Generally safe at permitted intake levels.",
+        "Some evidence suggests potential effects on gut microbiota at high, repeated intakes.",
+        "Not suitable for high-temperature cooking due to degradation products."
+      ],
+      "risk_level": "moderate",
+      "child_safety_level": "moderate",
+      "pregnancy_warning": "Approved; limit habitual high intake.",
+      "safe_products_per_day": { "diet_soda": 3 },
+      "avoid_if": ["Individuals with gastrointestinal sensitivity", "People trying to avoid non-nutritive sweeteners"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "Approved" },
+      "common_products": ["Coke Zero", "Monster Energy", "Diet beverages"],
+      "interaction_risks": ["Heat exposure can generate chlorinated by-products (not relevant in beverages)"]
+    },
+    {
+      "id": "E150d",
+      "name": "Caramel Colour IV (Sulphite Ammonia Caramel)",
+      "category": "Colorant",
+      "adi": "200 mg/kg body weight/day",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Provides dark brown colour to colas.",
+        "May contain trace amounts of 4-MEI formed during manufacture.",
+        "IARC classifies 4-MEI as possibly carcinogenic, but exposure from beverages is regulated and considered low."
+      ],
+      "risk_level": "moderate",
+      "child_safety_level": "moderate",
+      "pregnancy_warning": "Approved at permitted levels; moderation advised.",
+      "safe_products_per_day": { "cola_can": 2 },
+      "avoid_if": ["Sulfite-sensitive individuals", "People preferring to avoid caramel colours"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Colas", "Dark energy drinks"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E102",
+      "name": "Tartrazine (Yellow 5)",
+      "category": "Synthetic Colorant",
+      "adi": "7.5 mg/kg body weight/day",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Synthetic azo dye used for yellow colour.",
+        "Can trigger allergic reactions such as rashes or asthma in sensitive individuals.",
+        "Associated with increased hyperactivity in some children (Southampton studies)."
+      ],
+      "risk_level": "moderate-high",
+      "child_safety_level": "high",
+      "pregnancy_warning": "Approved; minimize intake during pregnancy as precaution.",
+      "safe_products_per_day": { "soda_can": 1 },
+      "avoid_if": ["Children", "Asthmatics", "People with aspirin sensitivity"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "Label declaration required" },
+      "common_products": ["Mountain Dew", "Lime sodas", "Yellow beverages"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E110",
+      "name": "Sunset Yellow FCF",
+      "category": "Synthetic Colorant",
+      "adi": "4 mg/kg body weight/day",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Provides orange/yellow colour to beverages.",
+        "May cause allergic reactions and intolerance in sensitive individuals.",
+        "Linked to behavioural effects in children when combined with other synthetic dyes."
+      ],
+      "risk_level": "moderate",
+      "child_safety_level": "high",
+      "pregnancy_warning": "Approved; limit frequent intake.",
+      "safe_products_per_day": { "orange_soda": 1 },
+      "avoid_if": ["Children", "Allergy-prone individuals", "Asthmatics"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "Approved" },
+      "common_products": ["Fanta", "Mirinda", "Orange drinks"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E129",
+      "name": "Allura Red AC",
+      "category": "Synthetic Colorant",
+      "adi": "7 mg/kg body weight/day",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Synthetic red dye used in energy drinks.",
+        "Some evidence of hyperactivity effects in children.",
+        "Can cause allergic reactions in rare cases."
+      ],
+      "risk_level": "moderate",
+      "child_safety_level": "high",
+      "pregnancy_warning": "Approved; avoid excessive intake.",
+      "safe_products_per_day": { "energy_drink": 1 },
+      "avoid_if": ["Children", "Individuals with dye sensitivities"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "Approved" },
+      "common_products": ["Sting Energy"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E133",
+      "name": "Brilliant Blue FCF",
+      "category": "Synthetic Colorant",
+      "adi": "6 mg/kg body weight/day",
+      "adi_source": "JECFA 2017",
+      "health_effects": [
+        "Poorly absorbed synthetic dye.",
+        "Generally considered low toxicity.",
+        "Rare hypersensitivity reactions reported."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low-moderate",
+      "pregnancy_warning": "Approved.",
+      "safe_products_per_day": { "sports_drink": 2 },
+      "avoid_if": ["People sensitive to coal-tar dyes"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "Approved" },
+      "common_products": ["Gatorade Blue", "Monster Energy"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E160a",
+      "name": "Beta-Carotene",
+      "category": "Natural Colorant",
+      "adi": "Not specified",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Natural pigment and vitamin A precursor.",
+        "Generally safe at food-level intake.",
+        "Excessive supplementation (not from drinks) can cause skin yellowing."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low",
+      "pregnancy_warning": "Safe at food levels.",
+      "safe_products_per_day": { "fruit_drink": 3 },
+      "avoid_if": ["Heavy smokers (high-dose supplements only)"],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Maaza", "Minute Maid"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E141",
+      "name": "Chlorophylls and Chlorophyllins",
+      "category": "Natural Colorant",
+      "adi": "Not specified",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Green pigment derived from plants.",
+        "Low toxicity and generally safe.",
+        "Used mainly for traditional beverages."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low",
+      "pregnancy_warning": "Safe.",
+      "safe_products_per_day": { "traditional_drink": 3 },
+      "avoid_if": [],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "Approved" },
+      "common_products": ["Aam Panna", "Herbal drinks"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E414",
+      "name": "Gum Arabic",
+      "category": "Stabilizer / Emulsifier",
+      "adi": "Not specified",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Natural plant-derived stabilizer.",
+        "Helps keep flavours and oils evenly mixed.",
+        "Generally well tolerated; may cause bloating in large amounts."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low",
+      "pregnancy_warning": "Safe.",
+      "safe_products_per_day": { "soda_can": 3 },
+      "avoid_if": ["People with severe digestive sensitivity"],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Fanta", "Gatorade", "Sprite"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E445",
+      "name": "Glycerol Esters of Wood Rosin",
+      "category": "Stabilizer",
+      "adi": "12.5 mg/kg body weight/day",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Prevents separation of citrus oils.",
+        "Low absorption; mostly excreted unchanged.",
+        "High intake may cause mild gastrointestinal discomfort."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low",
+      "pregnancy_warning": "Approved at regulated levels.",
+      "safe_products_per_day": { "orange_soda": 2 },
+      "avoid_if": ["People with resin sensitivity (rare)"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "Approved" },
+      "common_products": ["Fanta", "Citrus sodas"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E440",
+      "name": "Pectin",
+      "category": "Stabilizer / Thickener",
+      "adi": "Not specified",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Natural fiber from fruits.",
+        "Supports texture and mouthfeel.",
+        "May aid digestion; excess can cause gas."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low",
+      "pregnancy_warning": "Safe.",
+      "safe_products_per_day": { "juice_box": 3 },
+      "avoid_if": [],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Fruit juices", "Mixed fruit drinks"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E340",
+      "name": "Sodium Phosphates",
+      "category": "Electrolyte / Acidity Regulator",
+      "adi": "70 mg/kg body weight/day (as phosphorus)",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Replenishes electrolytes.",
+        "Adds dietary sodium and phosphate.",
+        "Excess intake linked to kidney stress in vulnerable individuals."
+      ],
+      "risk_level": "moderate",
+      "child_safety_level": "moderate",
+      "pregnancy_warning": "Approved; monitor total phosphate intake.",
+      "safe_products_per_day": { "sports_drink": 1 },
+      "avoid_if": ["People with kidney disease", "Those on phosphate-restricted diets"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Gatorade", "Sports drinks"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E296",
+      "name": "Malic Acid",
+      "category": "Acidulant",
+      "adi": "Not specified",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Enhances tartness and fruit flavour.",
+        "Less erosive than citric acid but still acidic.",
+        "Generally well tolerated."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low-moderate",
+      "pregnancy_warning": "Safe.",
+      "safe_products_per_day": { "soda_can": 3 },
+      "avoid_if": ["Severe acid reflux sufferers"],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Appy Fizz", "Iced tea"],
+      "interaction_risks": []
+    },
+    {
+      "id": "E500(ii)",
+      "name": "Sodium Bicarbonate",
+      "category": "Acidity Regulator",
+      "adi": "Not specified",
+      "adi_source": "JECFA",
+      "health_effects": [
+        "Neutralizes acidity.",
+        "Contributes sodium intake.",
+        "Generally safe at beverage levels."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low",
+      "pregnancy_warning": "Safe; monitor sodium intake.",
+      "safe_products_per_day": { "soda_water": 3 },
+      "avoid_if": ["Low-sodium diet"],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Soda water", "Kinley Soda"],
+      "interaction_risks": []
+    },
+    {
+      "id": "Quinine",
+      "name": "Quinine",
+      "category": "Flavoring Agent",
+      "adi": "5 mg/kg body weight/day",
+      "adi_source": "WHO / JECFA",
+      "health_effects": [
+        "Provides characteristic bitter taste.",
+        "High doses can cause cinchonism (rare at beverage levels).",
+        "Interacts with certain medications."
+      ],
+      "risk_level": "moderate",
+      "child_safety_level": "moderate",
+      "pregnancy_warning": "Avoid frequent intake.",
+      "safe_products_per_day": { "tonic_water": 1 },
+      "avoid_if": ["Pregnant women", "People on anticoagulants"],
+      "regulatory_status": { "WHO": "Approved (restricted)", "FSSAI": "Approved (limits apply)", "FDA": "Approved" },
+      "common_products": ["Tonic water"],
+      "interaction_risks": []
+    },
+    {
+      "id": "Taurine",
+      "name": "Taurine",
+      "category": "Supplement",
+      "adi": "Up to 3000 mg/day considered safe",
+      "adi_source": "EFSA",
+      "health_effects": [
+        "Naturally occurring amino acid.",
+        "Generally safe alone.",
+        "Risk arises when combined with high caffeine and sugar."
+      ],
+      "risk_level": "low-moderate",
+      "child_safety_level": "moderate-high",
+      "pregnancy_warning": "Limit intake.",
+      "safe_products_per_day": { "energy_drink": 1 },
+      "avoid_if": ["Children", "People with kidney disease"],
+      "regulatory_status": { "WHO": "Approved", "FSSAI": "Approved", "FDA": "GRAS" },
+      "common_products": ["Energy drinks"],
+      "interaction_risks": []
+    },
+    {
+      "id": "Malt Extract",
+      "name": "Malt Extract",
+      "category": "Flavoring / Sweetener",
+      "adi": "Not specified",
+      "adi_source": "FAO / FSSAI",
+      "health_effects": [
+        "Contains natural sugars and malt compounds.",
+        "Contributes calories.",
+        "May contain gluten traces."
+      ],
+      "risk_level": "low-moderate",
+      "child_safety_level": "low",
+      "pregnancy_warning": "Safe.",
+      "safe_products_per_day": { "malt_drink": 1 },
+      "avoid_if": ["People with gluten sensitivity"],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "Approved" },
+      "common_products": ["B-Fizz"],
+      "interaction_risks": []
+    },
+    {
+      "id": "Magnesium Sulphate",
+      "name": "Magnesium Sulphate",
+      "category": "Mineral",
+      "adi": "Not specified",
+      "adi_source": "FAO / WHO",
+      "health_effects": [
+        "Adds mineral content.",
+        "High intake can cause diarrhea (not at beverage levels)."
+      ],
+      "risk_level": "low",
+      "child_safety_level": "low",
+      "pregnancy_warning": "Safe at beverage levels.",
+      "safe_products_per_day": { "soda_water": 3 },
+      "avoid_if": [],
+      "regulatory_status": { "WHO": "Safe", "FSSAI": "Approved", "FDA": "Approved" },
+      "common_products": ["Kinley Soda"],
+      "interaction_risks": []
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-01-26",
+    "sources": [
+      "WHO Guidelines 2023",
+      "JECFA Database",
+      "EFSA Scientific Opinions",
+      "FSSAI Standards",
+      "Brand pack-labels (India) — used during previous batch validation"
+    ],
+    "version": "STRICT_HEALTH_4.1",
+    "total_additives": 30
+     }
+}
