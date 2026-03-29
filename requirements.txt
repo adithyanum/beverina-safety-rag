@@ -1,0 +1,32 @@
+# Core ML & Embeddings
+torch
+transformers
+sentence-transformers
+peft
+bitsandbytes
+
+# Model
+Mistral-7B-Instruct-v0.2
+
+# Vector Store & Retrieval
+faiss
+
+# LLM Inference (local GGUF)
+llama-cpp-python
+
+# RAG & Orchestration
+langchain
+langchain-community
+
+# Data & File Handling
+pypdf
+pandas
+
+# API Backend
+fastapi
+uvicorn
+pydantic
+
+# Utilities
+python-dotenv
+tqdm
