@@ -33,11 +33,27 @@ Beverina analyzes beverages and ingredients using a **fine-tuned Mistral-7B mode
 ## ⚙️ Highlights
 
 * RAG pipeline using **FAISS + MiniLM embeddings**
-* Fine-tuned **Mistral-7B (QLoRA)**
+* **Mistral-7B-Instruct-v0.2** fine-tuned with **LoRA (rank 16, alpha 32)**
 * Custom ingredient + product knowledge base
 * Hallucination control via retrieval + system prompt
 * **GGUF conversion + 4-bit quantization** for local inference
 * Fully offline (no external APIs)
+
+---
+
+## 🔧 Pipeline
+
+   Mistral-7B-Instruct-v0.2 (fp16)
+        ↓
+   LoRA Fine-tuning (rank=16, alpha=32, epochs=3)
+        ↓
+   Merge LoRA adapter into base model
+        ↓
+   Convert merged model → GGUF format
+        ↓
+   Q4_K_M quantization via llama.cpp
+        ↓
+   Local inference via llama-cpp-python + FastAPI
 
 ---
 
