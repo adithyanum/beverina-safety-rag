@@ -1,6 +1,6 @@
 # 🧠 Beverina — AI-Powered Ingredient Safety Analyzer
 
-End-to-end LLM system for analyzing beverage ingredient safety using **RAG, FAISS, and QLoRA**, deployed with fully local GGUF inference.
+End-to-end LLM system for analyzing beverage ingredient safety using **RAG, FAISS, and LoRA**, deployed with fully local GGUF inference.
 
 ---
 
